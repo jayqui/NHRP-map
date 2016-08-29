@@ -7,6 +7,7 @@ var nhrpStars = new Datamap({
     borderColor: '#aaa',
     highlightFillColor: '#99FF00',
     highlightBorderColor: '#99FF00',
+    highlightBorderWidth: 3,
 
     popupTemplate: function(geography, data) {
       return '<div class="hoverinfo">' + geography.properties.name + '<br>' + this.listStars(data.fillKey);
@@ -19,8 +20,6 @@ var nhrpStars = new Datamap({
       }
       return result;
     },
-
-    highlightBorderWidth: 3
   },
 
   fills: {
