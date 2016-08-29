@@ -84,5 +84,3 @@ var nhrpStars = new Datamap({
     WY: {fillKey: 3},
   },
 });
-
-// nhrpStars.labels();
